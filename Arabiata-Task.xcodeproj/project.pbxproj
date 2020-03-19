@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F4CAA2BC242272C600DB9168 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CAA2BB242272C600DB9168 /* main.swift */; };
+		F4CAA2C32422731D00DB9168 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CAA2C22422731D00DB9168 /* MenuItem.swift */; };
+		F4CAA2C52423B26F00DB9168 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CAA2C42423B26F00DB9168 /* MenuManager.swift */; };
+		F4CAA2C82423D04800DB9168 /* AnaZboonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CAA2C72423D04800DB9168 /* AnaZboonManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		F4CAA2B8242272C600DB9168 /* Arabiata-Task */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Arabiata-Task"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CAA2BB242272C600DB9168 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F4CAA2C22422731D00DB9168 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		F4CAA2C42423B26F00DB9168 /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		F4CAA2C72423D04800DB9168 /* AnaZboonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaZboonManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				F4CAA2BB242272C600DB9168 /* main.swift */,
+				F4CAA2C22422731D00DB9168 /* MenuItem.swift */,
+				F4CAA2C42423B26F00DB9168 /* MenuManager.swift */,
+				F4CAA2C72423D04800DB9168 /* AnaZboonManager.swift */,
 			);
 			path = "Arabiata-Task";
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CAA2C52423B26F00DB9168 /* MenuManager.swift in Sources */,
 				F4CAA2BC242272C600DB9168 /* main.swift in Sources */,
+				F4CAA2C32422731D00DB9168 /* MenuItem.swift in Sources */,
+				F4CAA2C82423D04800DB9168 /* AnaZboonManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
